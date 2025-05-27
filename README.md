@@ -1,5 +1,8 @@
-🖥 Frontend (React + TypeScript + Vite) - README✅ Requirements:Node.js v18+
+🖥 Frontend (React + TypeScript + Vite) 
+Requirements:Node.js v18+
+
 NPM or Yarn
+
 📁 Project Structure:admin-dashboard-frontend/
 ├── src/
 │   ├── api/axiosInstance.ts
@@ -12,6 +15,7 @@ NPM or Yarn
 │   └── main.tsx
 ├── index.html
 └── vite.config.ts🔐 Authentication Logic:Stores JWT in localStorage as token
+
 Axios sends it with every request via Authorization: Bearer ...
 Redirects to /login if unauthorized
 ▶️ Running locally:cd admin-dashboard-frontend
